@@ -1,0 +1,32 @@
+{
+  "name": "jojoramadhan/skalamusic",
+  "description": "Package for creating adminpanel in Laravel 5",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jojo Ramadhan",
+      "email": "jojoramadhan@gmail.com"
+    },
+    {
+      "name": "Deby N A",
+      "email": "andiny.deby@gmail.com"
+    }
+  ],
+  "version": "2.0.3",
+  "require": {
+    "laravel/framework": "5.3.*",
+    "laravelcollective/html": "^5.3",
+    "intervention/image": "^2.3",
+    "yajra/laravel-datatables-oracle": "^6.18"
+  },
+  "classmap": [
+    "src/Controllers",
+    "src/Cache",
+    "src/Models"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jojoramadhan\\Skalamusic\\": "src/"
+    }
+  }
+}
